@@ -1,4 +1,8 @@
-﻿int[,] TwoRandomArray()
+﻿//Задача_57: Составить частотный словарь элементов двумерного массива. Частотный словарь содержит информацию о том,
+//сколько раз встречается элемент входных данных.
+
+
+int[,] TwoRandomArray()
 {
   int[,] array = new int[new Random().Next(3, 3), new Random().Next(4, 4)];
   for (int i = 0; i < array.GetLength(0); i++)
@@ -62,9 +66,6 @@ int[] ConvertedArray(int[,] array)
   }
   return newArray;
 }
-
-
-
 
 void ReadArray(int[,] array)
 {
